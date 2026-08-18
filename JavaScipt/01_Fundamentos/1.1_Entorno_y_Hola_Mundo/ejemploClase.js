@@ -22,6 +22,13 @@ console.log("¡Hola, Mundo!");
 console.log(2026);
 
 // 3. IMPRIMIENDO MÚLTIPLES COSAS JUNTAS
-// 
+// Concatenacion
+
+console.log('Hola ', 45);
+
+console.log('Hola ' + 45);
+
+let n = 45;
+console.log(`Hola ${n}`)
 
 
