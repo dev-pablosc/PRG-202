@@ -1,4 +1,4 @@
-// if/else/else if/ternaria
+// if/else/else if/ternario
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
 
