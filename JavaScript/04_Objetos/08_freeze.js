@@ -13,6 +13,15 @@ const producto = {
 Object.freeze(producto);
 
 /* esto es un error*/
-producto.precio = 5000;
+
+//producto.marca = 'LG'
+
+//producto.precio = 5000;
+
+// delete producto.nombre
+
 
 console.log(producto)
+
+
+console.log(Object.isFrozen(producto))
