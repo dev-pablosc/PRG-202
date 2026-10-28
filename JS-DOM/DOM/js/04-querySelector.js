@@ -3,6 +3,7 @@
 const card = document.querySelector('.card')
 console.log(card)
 
+
 // selectores CSS » especificidad
 const info = document.querySelector('.premium .info h3')
 console.log(info)
