@@ -3,7 +3,7 @@
 const primerEnlace = document.querySelector('nav a')
 // console.log(primerEnlace)
 
-// Elimiar elementos por si mismos
+// Eliminar elementos por si mismos
 primerEnlace.remove()
 // Referencia desde el padre (» El padre se encarga de eliminar al hijo)
 const registro = document.querySelector('.navegacion').children[1];

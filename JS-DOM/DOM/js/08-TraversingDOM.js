@@ -3,9 +3,9 @@
 // traversing de PADRE a hijo » children no ChilNodes
 
 console.log(document.querySelector('.navegacion'))
-console.log(document.querySelector('.navegacion').childNodes) 
+console.log(document.querySelector('.navegacion').childNodes) //❌
 
-console.log(document.querySelector('.navegacion').children)
+console.log(document.querySelector('.navegacion').children) //✅
 console.log(document.querySelector('.navegacion').children[2].textContent = 'Modificado')
 
 // otra opcion para navegar entre elementos
