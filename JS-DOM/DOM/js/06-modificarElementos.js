@@ -21,8 +21,8 @@ titulo.innerHTML = 'Texto Nuevo de <b>Desarrolo Web</b> <i>2026</i>'
 const nuevaImg = document.querySelector('.contenedor-cards .card:nth-child(2) img')
 //console.log(nuevaImg)
 
-nuevaImg.src = './img/hacer4.jpg'
-nuevaImg.alt = 'foto de ciclista'
+nuevaImg.src = './img/hacer4.jpg' // cambio
+nuevaImg.alt = 'foto de ciclista' // agregar
 
 // modificar <a>
 const enlace = document.querySelector('nav a:nth-child(3)')

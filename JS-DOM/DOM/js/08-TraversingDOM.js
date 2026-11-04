@@ -8,6 +8,9 @@ console.log(document.querySelector('.navegacion').childNodes) //❌
 console.log(document.querySelector('.navegacion').children) //✅
 console.log(document.querySelector('.navegacion').children[2].textContent = 'Modificado')
 
+// console.log(document.querySelector('.navegacion a:nth.child(3)').textContent = 'Modificado')
+
+
 // otra opcion para navegar entre elementos
 console.log('>>>>>>>>>>>>>>>>>>>>>>>>>')
 console.log(document.querySelector('.navegacion').firstElementChild)
