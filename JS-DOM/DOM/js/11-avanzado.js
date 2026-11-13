@@ -1,18 +1,17 @@
-console.log('testing')
-const btn = document.querySelector('.btn-flotante');
-const footer = document.querySelector('footer');
+const boton = document.querySelector('.btn-flotante')
+const footer = document.querySelector('footer')
 
-btn.addEventListener('click', mostrarFooter);
+// agregar eventos
+boton.addEventListener('click', revelarFooter);
 
-
-function mostrarFooter(){
-    if(this.classList.contains('activo')){
-        this.classList.remove('activo');
+function revelarFooter(){
+    if(footer.classList.contains('activo')){
         footer.classList.remove('activo')
-        this.textContent = 'Idioma y Moneda'
-    } else{
-        this.classList.add('activo');
-        footer.classList.add('activo');
-        this.textContent = '❌ Cerrar'
+        boton.textContent = 'Idioma y Moneda'
+        boton.classList.remove('activo')
+    } else {
+        footer.classList.add('activo')
+        boton.textContent = '» CERRAR'
+        boton.classList.add('activo')
     }
 }

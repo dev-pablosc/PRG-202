@@ -328,3 +328,7 @@ main > section {
 .sociales ul li span{
     display: none;
 }
+
+.nuevaClase{
+    background-color: #da595e;
+}

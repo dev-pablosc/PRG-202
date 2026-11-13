@@ -4,10 +4,10 @@ elemento = document;
 elemento = document.head;
 elemento = document.body;
 elemento = document.URL;
+elemento = document.characterSet;
 elemento = document.forms;
-elemento = document.forms[0].id;
+elemento = document.forms[2];
 
-elemento = document.links;
-elemento = document.links[4];
+elemento = document.links[2];
 
 console.log(elemento)

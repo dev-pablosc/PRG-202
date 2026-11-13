@@ -1,42 +1,38 @@
 // navegando a travez de los diferentes elementos de DOM 
 
-// traversing de PADRE a hijo » children no ChilNodes
+// Navegacion de padre a hijo  
 
-console.log(document.querySelector('.navegacion'))
-console.log(document.querySelector('.navegacion').childNodes) //❌
+console.log(document.querySelector('nav'))
+console.log(document.querySelector('nav').childNodes) //❌
 
-console.log(document.querySelector('.navegacion').children) //✅
-console.log(document.querySelector('.navegacion').children[2].textContent = 'Modificado')
+console.log(document.querySelector('nav').children) // ✅
+console.log(document.querySelector('nav').children[2].textContent = 'Inicio')
 
-// console.log(document.querySelector('.navegacion a:nth.child(3)').textContent = 'Modificado')
+// console.log(document.querySelector('nav a:nth-child(3)').textContent = 'InicioNuevo')
 
-
-// otra opcion para navegar entre elementos
-console.log('>>>>>>>>>>>>>>>>>>>>>>>>>')
-console.log(document.querySelector('.navegacion').firstElementChild)
-console.log(document.querySelector('.navegacion').lastElementChild)
+// Mas opciones para navegar
+console.log(document.querySelector('nav').firstElementChild)
+console.log(document.querySelector('nav').lastElementChild)
 
 
-// modificar texto de card
-const card = document.querySelector('.card:nth-child(2)').children[1].children[0]
-card.textContent = 'Titulo Generado desde JS'
-
-// modificar una img
-console.log(document.querySelector('.card:nth-child(2)').children[0].src = './img/hacer4.jpg')
-
-// Conocer los ATRIBUTOS
-console.log(document.querySelector('.card:nth-child(2)').children[0].attributes);
-console.log(document.querySelector('form').attributes);
+// Moficar el texto de una card
+console.log(document.querySelector('.card:nth-child(2)').children[1].children[1].textContent = 'Nuevo TITULO')
 
 
 
-// traversing de HIJO a padre
-const titulo2 = document.querySelector('.hacer:nth-child(2) .info h3');
-console.log(titulo2)
+// Navegacion de hijo a padre
+const ejemplo = document.querySelector('.hacer:nth-child(2) .premium .info h3')
+// console.log(ejemplo)
 
-console.log(titulo2.parentElement.parentElement.parentElement);
+console.log(ejemplo.parentElement.parentElement.parentElement.parentElement)
 
 
-// traversing entre hermanos » nextElementSibling
+
+// traversing a los hermanos >>> nextElementSibling
 console.log(document.querySelector('.card').nextElementSibling.nextElementSibling)
-// previousElementSibling
+// para ir al hermano anterior
+// previosElementSibling
+
+
+// Ver los atributos
+console.log(document.querySelector('#formulario').attributes)

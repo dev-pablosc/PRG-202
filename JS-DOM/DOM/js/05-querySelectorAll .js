@@ -1,9 +1,10 @@
-// retorna todos los elementos diferente a » querySelector
-// devuelve NodeList » ArrayLike
+// retorna TODOS los elementos 
+// devuelve un NODE_list
 
-const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.card')
 console.log(cards)
 
-// si no existe la clase Devuelve un array vacio
-const cards2 = document.querySelectorAll('.cardNoExiste');
-console.log(cards2)
+// si no existe
+const noExiste = document.querySelectorAll('.cardjsfjjsj')
+console.log(noExiste)
+

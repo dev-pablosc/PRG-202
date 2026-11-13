@@ -1,8 +1,10 @@
 // Seleccionar Elemento por su ID
 
-const formulario = document.getElementById('formulario');
-console.log(formulario)
+const form = document.getElementById('formulario')
+console.log(form)
 
-// Si no existe el id devuelve » NULL
-const noExiste = document.getElementById('noExiste');
+// Si no existe el ID » devuelve /null
+const noExiste = document.getElementById('noExiste')
 console.log(noExiste)
+
+// si hay mas de 2 IDs es mala practica

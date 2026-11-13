@@ -1,21 +1,24 @@
 // modificando en css <style>
 
-// Cambiando el titulo
 const titulo = document.querySelector('h1');
-titulo.style.color = '#1a1c1e'
+titulo.style.color = '#00263a'
 
-// Si la propiedad tiene 2 palabras en css » background-color , justify-content
-// Se debe usar camelCase en Js            » backgroundColor,   justiyContent
+// si la propiedad tiene dos palabras en css - background-color || justify-content 
+// se usa camelCase en js >> backgroundColor || justifyContent
 
 titulo.style.textTransform = 'uppercase'
 
-// Agregar o quitar CLASES
 
-const card = document.querySelector('.contenedor-cards .card:nth-child(4) .info')
+
+// Agregar o quitar CLASES
+const card = document.querySelector('.contenedor-cards .card:nth-child(3) .info');
+
+
+// Listando las clases
 console.log(card.classList)
 
-// eliminar clases
-card.classList.remove('info')
+// Agregar Clases
+card.classList.add('nuevaClase')
 
-// agregar clases
-card.classList.add('info', 'claseNueva')
+// Para eliminar
+card.classList.remove('info')
